@@ -11,7 +11,7 @@ import SwiftUI
 struct Recipe_BrowseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
