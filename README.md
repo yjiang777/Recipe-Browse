@@ -47,4 +47,4 @@ Represents the data model and view model for displaying the receipe. `ReceipeRes
 ## Futher considerations
 
 - Better handling of the receipe data response. Because the way `Receipe` is structured in the API, it's a little tedious to handle edge cases like `nil`.
--
+- Better error handling in `DataService`. Currently it just prints the error. It might be a better idea to display an error dialog.
